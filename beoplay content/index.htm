@@ -89,7 +89,15 @@
 	<script type="text/javascript">setTimeout(function(){
  	var popout = document.querySelector("#modal-box"); 
  	popout.style.display = "inline";
- 	}, 3000);
+ 	}, 2500);
+ 	</script>
+ 	<script type="text/javascript">
+ 		var exit = document.querySelector(".popup__exit");
+ 		var popout = document.querySelector("#modal-box"); 
+ 		exit.addEventListener("click", function(){
+ 			popout.style.display = "none";
+ 		});
+ 	
  	</script>
 	</body>
 </html>

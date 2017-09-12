@@ -1,22 +1,25 @@
 .popup{
 width: 400px;
 height: 200px;
-background-color: white;
+background-color: #DEB887;
 position: fixed;
 bottom: 0;
 right: 0;
-border: 1px solid black;
+border: 1px solid white;
 border-radius: 5px;
 display: none;
 }
 
 .popup__exit{
 position: absolute;
-top: 0;
-right: 0;
+top: -15px;
+left: -15px;
 padding: 10px;
-background-color: brown;
+background-color: grey;
 text-align: center;
+border: 2px solid black;
+border-radius: 10px;
+
 }
 .popup__image{
 width: 50%;
@@ -26,14 +29,17 @@ float: left;
 .popup__textfield{
 	width: 50%;
 	float: right;
+	text-align: center;
 }
 .popup__signup{
 	position: absolute;
 	bottom: 0;
 	right: 0;
+	width: 100px;
 	padding: 10px;
-	background-color: brown;
+	background-color: #A0522D;
 	color: white;
+	text-align: center;
 
 }
 
