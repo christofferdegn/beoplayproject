@@ -3,6 +3,7 @@
 	<head>
 		<title>BeoPlay A2</title>
 		<link rel="icon" href="images/favicon.png"/>
+		<link rel="stylesheet" type="text/css" href="popout.css">
 	</head>
 	
 	<body>
@@ -76,13 +77,19 @@
 			<p><a href="mailto:salessupport@beoplay.com">salessupport@beoplay.com</a></p>
 		</footer>
 		
-		<aside id="modal-box">
-			<button>X</button>
-			<img src="images/modal.png">
-			<p>Sign up and win the new BeoPlay H7</p>
-			<p>We'll draw a winner at random. The competition ends April 31, 2016 at 10:00 CET.</p>
-			<a href="#">Sign up</a>
+		<aside id="modal-box" class="popup">
+			<button class="popup__exit">X</button>
+			<img class="popup__image" src="images/modal.png">
+			<p class="popup__textfield">
+				Sign up and win the new BeoPlay H7
+			</p>
+			<p class="popup__textfield">We'll draw a winner at random. The competition ends April 31, 2016 at 10:00 CET.</p>
+			<a class="popup__signup" href="#">Sign up</a>
 		</aside>
-
+	<script type="text/javascript">setTimeout(function(){
+ 	var popout = document.querySelector("#modal-box"); 
+ 	popout.style.display = "inline";
+ 	}, 3000);
+ 	</script>
 	</body>
 </html>

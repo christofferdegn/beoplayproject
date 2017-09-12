@@ -1,0 +1,39 @@
+.popup{
+width: 400px;
+height: 200px;
+background-color: white;
+position: fixed;
+bottom: 0;
+right: 0;
+border: 1px solid black;
+border-radius: 5px;
+display: none;
+}
+
+.popup__exit{
+position: absolute;
+top: 0;
+right: 0;
+padding: 10px;
+background-color: brown;
+text-align: center;
+}
+.popup__image{
+width: 50%;
+height: 100%;
+float: left;
+}
+.popup__textfield{
+	width: 50%;
+	float: right;
+}
+.popup__signup{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	padding: 10px;
+	background-color: brown;
+	color: white;
+
+}
+
