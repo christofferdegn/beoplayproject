@@ -13,7 +13,7 @@
 .nav3 li,
 .nav4 li,
 .nav3__menuitem--select {
-	display: inline-flex;
+	display: inline;
 	position: relative;
 	margin: 0 10px;
 }
