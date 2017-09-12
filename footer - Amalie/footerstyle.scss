@@ -1,0 +1,45 @@
+/* Scss Document */
+
+$footer-color:#333;
+$grey-text:#666;
+
+.article2 {
+	background-color:$footer-color;
+	text-align:center;
+	padding: 10em 0 10em 0;
+}
+
+.article2__text {
+	color:$grey-text;
+	text-decoration: none;
+	text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.65em;
+}
+
+.article2__text--fancy {
+	color:white;
+	text-transform: none;
+	font-family: 'Playfair Display', serif;
+    font-size: 3.5em;
+}
+
+.footer {
+	background-color:$footer-color;
+	text-align:center;
+	padding-bottom:1em;
+}
+
+.footer__text {
+	display:inline-block;
+	color:$grey-text;
+    font-family: 'Roboto', sans-serif;
+	text-transform:uppercase;
+	font-size: 0.7em;
+    padding: 0 1em;
+}
+
+.footer__text--contact {
+	text-decoration:none;
+	color:$grey-text;
+}
